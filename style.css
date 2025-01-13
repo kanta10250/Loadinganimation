@@ -38,8 +38,16 @@ body {
     border-radius: 81% 19% 85% 15% / 29% 85% 15% 71% ;
 }
 .loader span:nth-child(3) {
-    animation-delay: 3s;
+    animation-delay: 0.5s;
     border-radius: 11% 89% 17% 83% / 84% 17% 83% 16% ;
+}
+
+.loader h2 {
+    color: white;
+    font-size: 2.3rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    font-weight: 700;
 }
 
 .loaded {
@@ -63,12 +71,4 @@ body {
     100% {
         transform: rotate(360deg);
     }
-}
-
-.loader h2 {
-    color: white;
-    font-size: 2.3rem;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-    font-weight: 700;
 }
