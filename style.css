@@ -31,7 +31,6 @@ body {
     animation: animate 5s linear infinite;
 }
 .loader span:nth-child(1) {
-    animation-direction: reverse;
     border-radius: 50% 50% 22% 78% / 40% 50% 50% 60%;
 }
 .loader span:nth-child(2) {
@@ -40,6 +39,7 @@ body {
 }
 .loader span:nth-child(3) {
     animation-delay: 3s;
+    border-radius: 11% 89% 17% 83% / 84% 17% 83% 16% ;
 }
 
 @keyframes animate {
