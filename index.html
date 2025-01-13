@@ -18,7 +18,16 @@
     </div>
     
     <script>
-        
+        window.onload = function() {
+            setTimeout(() => {
+            //loader消す
+            const loader = document.querySelector('.loader');
+            loader.classList.add('loaded');
+             //contentをみせる / ローディングを長くする
+             const content = document.querySelector(".content");
+             content.style.visibility = "visible";
+            }, 1300);
+        }
     </script>
 </body>
 </html>
